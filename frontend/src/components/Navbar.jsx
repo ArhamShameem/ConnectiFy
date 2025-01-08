@@ -1,8 +1,8 @@
 import React from "react";
-import { Route, Router } from "react-router-dom";
-import { useAuthStore } from "../store/useAuthStore";
 import { Link } from "react-router-dom";
-import { LogOut, MessageSquare, Settings, User } from "lucide-react";
+import { LogOut, MessageSquare, Settings, User, Github } from "lucide-react";
+import { useAuthStore } from "../store/useAuthStore";
+
 const Navbar = () => {
   const { logout, authUser } = useAuthStore();
 
@@ -30,12 +30,22 @@ const Navbar = () => {
               to={"/settings"}
               className={`
               btn btn-sm gap-2 transition-colors
-              
               `}
             >
               <Settings className="w-4 h-4" />
               <span className="hidden sm:inline">Settings</span>
             </Link>
+
+            {/* GitHub Button */}
+            <a
+              href="https://github.com/ArhamShameem/ConnectiFy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-sm gap-2"
+            >
+              <Github className="w-4 h-4" />
+              <span className="hidden sm:inline">GitHub</span>
+            </a>
 
             {authUser && (
               <>
