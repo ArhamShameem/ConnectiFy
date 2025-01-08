@@ -19,10 +19,10 @@ Deployment - https://connectify-kkle.onrender.com
 
 
 
-Build the app
-npm run build
+Build the app:
+#npm run build#
 
-Start the app
-npm run start
+Start the app:
+#npm run start#
 
 
