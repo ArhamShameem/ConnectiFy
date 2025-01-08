@@ -13,6 +13,12 @@ Deployment - https://connectify-kkle.onrender.com
 
 ![image](https://github.com/user-attachments/assets/9f37bebd-df00-4df8-aeec-67b14eb90ca7)
 
+![image](https://github.com/user-attachments/assets/fe9ffb7a-9313-4b0c-a6ad-48a795dc9d41)
+
+![image](https://github.com/user-attachments/assets/fb9c0402-e20e-4d65-83fd-9fc92efa909e)
+
+
+
 Build the app
 npm run build
 
